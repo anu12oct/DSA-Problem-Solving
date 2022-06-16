@@ -3,7 +3,7 @@ package arrayOperations;
 public class ArrayTraversal_1 {
 
 	public static void main(String[] args) {
-		int arr[] = { 2, 3, 4, 8, 9, 1 };
+		int arr[] = { 1, 2, 3, 4, 5, 6 };
 
 		// To print array elements one by one
 
@@ -20,6 +20,11 @@ public class ArrayTraversal_1 {
 			x = arr[j];
 			System.out.print(x + " ");
 
+		}
+
+		// Printing in reverse order
+		for (int i = arr.length - 1; i >= 0; i--) {
+			System.out.println(arr[i]);
 		}
 
 	}
